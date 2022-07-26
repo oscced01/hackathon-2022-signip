@@ -1,5 +1,11 @@
 # Hackathon 2022 SIGNIP
 
+## How to
+```bash
+./get_bash.sh # Git clone example repos
+./depscrut.py ./example/parsec/ ./example/parsec-tools/ # Scrutinize between example projects
+```
+
 ## Set up
 
 * Tested with python version 3.8.10
