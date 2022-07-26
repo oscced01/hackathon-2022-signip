@@ -15,7 +15,7 @@ def main():
 
     merged_info = parse_dependencies(sys.argv[1])
     for path in sys.argv[2:]:
-        package_info = parse_dependencies(path_1)
+        package_info = parse_dependencies(path)
         merged_info = merged_info.merge(package_info)
 
     
