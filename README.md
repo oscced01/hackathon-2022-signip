@@ -2,7 +2,7 @@
 
 ## How to
 ```bash
-./get_bash.sh # Git clone example repos
+./get_repos.sh # Git clone example repos
 ./depscrut.py ./example/parsec/ ./example/parsec-tools/ # Scrutinize between example projects
 ```
 
