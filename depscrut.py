@@ -7,9 +7,6 @@ import sys
 from crate import Crate
 from package_info import PackageInfo
 
-path_1 = "./example/parsec/"
-path_2 = "./example/parsec-tool/"
-
 def main():
     if len(sys.argv) < 2:
         print("Error!")
@@ -71,7 +68,6 @@ def parse_dependencies(path):
         package_info.add(crate)
     
     return package_info
-
 
 if __name__ == "__main__":
     main()
